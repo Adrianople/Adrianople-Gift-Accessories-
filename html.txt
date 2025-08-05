@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrianople Gift Accessories</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #c7a17a;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      background-color: #a68a64;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-image: url('https://source.unsplash.com/1600x600/?gifts,accessories');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px #000;
+      font-size: 2em;
+      text-align: center;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .product-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 250px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .contact {
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #c7a17a;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adrianople Gift Accessories</h1>
+    <p>Elegant & Thoughtful Gifts for Every Occasion</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Discover Beautiful Accessories and Unique Gifts
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+      Adrianople Gift Accessories offers a curated selection of charming gifts,
+      handmade accessories, and elegant items perfect for birthdays, holidays, and
+      every special moment in life. We believe in quality, creativity, and making people smile.
+    </p>
+  </section>
+
+  <section class="section" id="products">
+    <h2>Featured Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://source.unsplash.com/250x150/?bracelet" alt="Bracelet" />
+        <h3>Handmade Bracelet</h3>
+        <p>$25.00</p>
+      </div>
+      <div class="product-card">
+        <img src="https://source.unsplash.com/250x150/?gift-box" alt="Gift Box" />
+        <h3>Luxury Gift Box</h3>
+        <p>$45.00</p>
+      </div>
+      <div class="product-card">
+        <img src="https://source.unsplash.com/250x150/?scarf" alt="Scarf" />
+        <h3>Silk Scarf</h3>
+        <p>$35.00</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@adrianoplegifts.com</p>
+    <p>Instagram: @adrianoplegifts</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Adrianople Gift Accessories. All rights reserved.</p>
+  </footer>
+</body>
+</html>
